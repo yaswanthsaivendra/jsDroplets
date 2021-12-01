@@ -51,6 +51,7 @@ console.log(nums.join(' ')) //it is used to join the elements of the array with 
 
 console.log(nums.slice(1,4)) //takes in first and last index as paramters and doesn't include the element at last index in the output array.
 
+
 nums.push(10) //push an element to the end.
 console.log(nums)
 nums.pop()    //pop an element from the end.
@@ -67,3 +68,9 @@ console.log(nums)
 
 nums.sort()     //sort the array.
 console.log(nums)
+
+const fruits = ['apple', 'banana', 'pineapple', 'mango', 'orange']
+fruits.splice(2, 3, 'gauva', 'kiwi')    //splice(position, numberOfElementsToDeleted, any new elements to add at that position)
+console.log(fruits)   // [ 'apple', 'banana', 'gauva', 'kiwi' ]
+//removes three elements from position 3(i.e. pineapple, mango and orange).
+//Then add the gauva and kiwi at that position.
