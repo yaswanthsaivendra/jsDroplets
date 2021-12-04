@@ -72,5 +72,5 @@ console.log(nums)
 const fruits = ['apple', 'banana', 'pineapple', 'mango', 'orange']
 fruits.splice(2, 3, 'gauva', 'kiwi')    //splice(position, numberOfElementsToDeleted, any new elements to add at that position)
 console.log(fruits)   // [ 'apple', 'banana', 'gauva', 'kiwi' ]
-//removes three elements from position 3(i.e. pineapple, mango and orange).
+//removes three elements from position(index) 2(i.e. pineapple, mango and orange).
 //Then add the gauva and kiwi at that position.
