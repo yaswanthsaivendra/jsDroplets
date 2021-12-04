@@ -61,3 +61,5 @@ function sayHelloWorld() {
     console.log('Hello World')
 }
 setTimeout(sayHelloWorld, 2000) //prints hello World after 2 seconds.
+
+
