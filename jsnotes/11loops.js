@@ -20,7 +20,7 @@ do {
 } while (i<=5);
 
 //for of loop
-//for of loop can be over handy to iterate over an array and if we are not interested in using the index of array.
+//for of loop can be very handy to iterate over an array and if we are not interested in using the index of array.
 
 const nums = [1, 2, 3, 4, 5, 6]
 for (const num of nums) {

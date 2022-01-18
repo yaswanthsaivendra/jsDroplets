@@ -21,7 +21,7 @@ console.table(user)
 //console.time()
 // We can start a timer with a unique name and end the timer using console.timeEnd() method.
 //It displays the time elapsed b/w those two calls when the timer is ended.
-const countires = ['India', 'England', 'Potrugal']
+const countires = ['India', 'England', 'Portugal']
 
 console.time('For loop')
 

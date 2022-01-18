@@ -12,7 +12,7 @@
 //EX:
 let numOne = 3;
 let numTwo = 3
-console.log(numOne=numTwo)      //true
+console.log(numOne==numTwo)      //true
 
 
 /*
@@ -31,11 +31,10 @@ console.log(nums)
 
 // We cannot compare non-primitive data types directly, as comparing non-primitive data types does mean that comparing their references but not values.
 //Ex:
-let nums = [1,2,3,4];
+let num = [1,2,3,4];
 let numbers = [1,2,3,4];
-console.log(nums == numbers)    //false
+console.log(num == numbers)    //false
 
-let nums = [1,2,3,4];
 numbers = nums;
 console.log(nums == numbers)    //true
 

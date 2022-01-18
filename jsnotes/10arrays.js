@@ -60,7 +60,7 @@ console.log(nums)
 nums.shift()    //remove an element from the beginning.
 console.log(nums)
 
-nums.unshift(1)     //adds an element to the beggining.
+nums.unshift(1)     //adds an element to the beginning.
 console.log(nums)
 
 nums.reverse()  //permanently reverse an array.
