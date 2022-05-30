@@ -45,4 +45,9 @@ num = 4.44
 let numInt = parseInt(num)
 console.log(numInt) //4
 
-
+// Mostly we use these
+/*
+String();   to convert into strings
+Number();   to convert into numbers
+Boolean();  to convert into booleans.
+*/
