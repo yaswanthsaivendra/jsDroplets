@@ -19,7 +19,7 @@ console.log(integerNum)
 integerNum = +num
 console.log(integerNum)
 
-// String to Int
+// String to Float
 // we can convert string float number to a float number using
 //1. parseFloat()
 //2. Number()
